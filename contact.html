@@ -63,6 +63,15 @@
 								<li><input type="submit" value="Send Message" /></li>
 							</ul>
 						</form>
+					
+					
+					window.onbeforeunload = () => {
+  					   for(const form of document.getElementsByTagName('form')) {
+    						form.reset();
+  					   }
+					}
+					
+	
 					</section>
 					<section class="split contact">
 						<section class="alt">
