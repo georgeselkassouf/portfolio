@@ -191,7 +191,7 @@ input, select, textarea {
 
 	h3 {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-weight:normal
+		font-weight:normal;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
 		text-transform: uppercase;
